@@ -91,3 +91,14 @@ Estilos generales de la aplicación.
 
 ### 🔹 `.env`
 Archivo de configuración de variables de entorno. (Explicado anteriormente)
+
+
+## ⚠️ Problemas encontrados y soluciones
+
+- **Pantalla en blanco al cargar la aplicación**  
+  *Problema:* configuración incorrecta de la variable de entorno `VITE_API_URL`.  
+  *Solución:* revisar el archivo `.env` y reiniciar el servidor de desarrollo tras cualquier cambio.
+
+- **Las tarjetas no mantenían el mismo tamaño**
+  *Causa:* los textos de longitud variable provocaban alturas distintas.
+  *Solución:* establecer una altura mínima común y usar flex para distribuir el contenido.
