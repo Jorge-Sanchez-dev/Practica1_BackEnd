@@ -14,16 +14,20 @@ cd nombre-repositorio
 ### 2️⃣ Instalar dependencias
 ```bash
 npm install
+```
 
 ### 3️⃣ Configurar variables de entorno
 Crear un archivo .env en la raíz del proyecto:
 ```bash
 VITE_API_URL=https://swapi.dev/api
+```
 
-4️⃣ Ejecutar el proyecto en local
+### 4️⃣ Ejecutar el proyecto en local
 ```bash
 npm run dev
+```
 
 Abrir el navegador en:
 ```bash
 http://localhost:5173
+```
