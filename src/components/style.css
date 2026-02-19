@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+
+.card {
+  flex: 0 1 220px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  background: #697776;
+  border-radius: 16px;
+  padding: 0px 14px 16px;
+}
+
+.card h2 {
+  text-align: center;
+  color: #000000;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #d1d5db;
+}
+
+.card strong {
+  color: #000000;
+}

@@ -1,0 +1,48 @@
+#root {
+  width: 100%;
+}
+
+body {
+  display: grid;
+  place-items: start center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 24px;
+}
+
+button {
+  color: #000000;
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4c85e8;
+}
+
+
+
+.loader {
+  text-align: center;
+  margin: 16px 0;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.error {
+  text-align: center;
+  color: #f87171;
+  margin: 12px 0;
+  font-weight: 600;
+}
+
