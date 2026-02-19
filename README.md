@@ -97,8 +97,9 @@ Archivo de configuración de variables de entorno. (Explicado anteriormente)
 
 - **Pantalla en blanco al cargar la aplicación**  
   *Problema:* configuración incorrecta de la variable de entorno `VITE_API_URL`.  
-  *Solución:* revisar el archivo `.env` y reiniciar el servidor de desarrollo tras cualquier cambio.
+  *Solución:* revisar el archivo `.env` y reiniciar el servidor de desarrollo tras el cambio.
 
 - **Las tarjetas no mantenían el mismo tamaño**
-  *Causa:* los textos de longitud variable provocaban alturas distintas.
-  *Solución:* establecer una altura mínima común y usar flex para distribuir el contenido.
+  *Causa:* los textos al tener diferente longitud provocaban alturas distintas.
+  *Solución:* establecer una altura mínima y máxima y usar flex para distribuir el contenido.
+
