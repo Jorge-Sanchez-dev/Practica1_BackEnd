@@ -9,6 +9,7 @@ La aplicación está estructurada por componentes y gestiona estados de carga y 
 ```bash
 git clone https://github.com/tu-nombre-usuraio/nombre-repositorio.git
 cd nombre-repositorio
+```
 
 ### 2️⃣ Instalar dependencias
 ```bash
